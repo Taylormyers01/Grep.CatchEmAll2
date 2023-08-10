@@ -1,37 +1,55 @@
 # Part 1
 ### a)
-
-
-
+ggrep -P "pika" forest/filescan_00.3 
+ggrep -P "butt" forest/filescan_00.1 
+ggrep -P "izard" forest/filescan_00.2 
+ggrep -P "beed" forest/filescan_00.1 
+ggrep -P "blas" forest/filescan_00.1 
+ggrep -P "mander" forest/filescan_00.2 
+ggrep -P "jigg" forest/filescan_00.3 
+ggrep -P "meow" forest/filescan_00.3 
+ggrep -P "war" forest/filescan_00.4 
+ggrep -P "squi" forest/filescan_00.4 
+ggrep -P "psyd" forest/filescan_00.4 
 
 ### b)
 
-
+ggrep -P "pika" forest/filescan_00.3 > captured/pikachu.txt
+ggrep -P "butt" forest/filescan_00.1 > captured/butterfree.txt
+ggrep -P "izard" forest/filescan_00.2 > captured/charizard.txt
+ggrep -P "beed" forest/filescan_00.1 > captured/beedrill.txt
+ggrep -P "blas" forest/filescan_00.1 > captured/blastoise.txt
+ggrep -P "mander" forest/filescan_00.2 > captured/charmander.txt
+ggrep -P "jigg" forest/filescan_00.3 > captured/jigglypuff.txt
+ggrep -P "meow" forest/filescan_00.3 > captured/meowth.txt
+ggrep -P "war" forest/filescan_00.4 > captured/wartortle.txt
+ggrep -P "squi" forest/filescan_00.4 > captured/squirtle.txt
+ggrep -P "psyd" forest/filescan_00.4 > captured/psyduck.txt
 
 ### c)
-
-
-
-
-
-
-
-
-
-
-
+forest/filescan_00.3 pikachu.txt
+forest/filescan_00.1 butterfree.txt
+forest/filescan_00.2 charizard.txt
+forest/filescan_00.1 beedrill.txt
+forest/filescan_00.1 blastoise.txt
+forest/filescan_00.2 charmander.txt
+forest/filescan_00.3 jigglypuff.txt
+forest/filescan_00.3 meowth.txt
+forest/filescan_00.4 wartortle
+forest/filescan_00.4 squirtle 
+forest/filescan_00.4 psyduck 
 
 
 # Part 2
 ### a)
-
+ls | wc -l
 
 
 
 
 
 ### b)
-
+ggrep -rc "."  
 
 
 
